@@ -135,6 +135,9 @@ span.left-logo {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 .header-bottom .intro1 h2{
     display: flex;
@@ -144,19 +147,35 @@ span.left-logo {
     font-size: 36px;
     font-weight: 900; 
 }
-.container{
+.header-bottom .container{
     display: flex;
     justify-content: center;
     gap: 52px;
   }
-.info {
+.header-bottom .info {
   max-width: 200px;
 } 
-.container h3{
+.header-bottom .container h3{
     background-color: black;
     padding: 100px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.footer-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 150px;
+}
+.footer-top .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid red;
+}
+.footer-top .container p{
+    font-weight: 900; 
 }
