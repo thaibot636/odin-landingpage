@@ -137,7 +137,7 @@ span.left-logo {
     text-align: center;
     justify-content: center;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .header-bottom .intro1 h2{
     display: flex;
@@ -164,18 +164,28 @@ span.left-logo {
     align-items: center;
 }
 .footer-top{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin: 20px 150px;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 .footer-top .container{
     display: flex;
+    flex-direction: column;
+    text-align: left;
     justify-content: center;
-    align-items: center;
-    outline: 2px solid red;
+    margin: 20px 200px;
 }
 .footer-top .container p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+}
+.footer-top .container span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 900; 
+    font-style: italic;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
 }
