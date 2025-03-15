@@ -183,9 +183,10 @@ span.left-logo {
     justify-content: flex-end;
     align-items: flex-end;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900; 
+    font-weight: 1000; 
     font-style: italic;
     padding: 10px;
     margin-right: 20px;
     font-size: 20px;
+    color: maroon;
 }
